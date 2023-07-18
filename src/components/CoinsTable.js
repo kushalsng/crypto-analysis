@@ -40,19 +40,12 @@ const useStyles = makeStyles({
 const CoinsTable = () => {
   const classes = useStyles();
   const navigate = useNavigate();
-  const [coins, setCoins] = useState([]);
-  const [loading, setLoading] = useState(false);
+
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(0);
+  // console.log(CryptoState())
+  const { currency, symbol, coins, loading, fetchCoins } = CryptoState();
 
-  const { currency, symbol } = CryptoState();
-
-  const fetchCoins = async () => {
-    setLoading(true);
-    const { data } = await axios.get(CoinList(currency));
-    setLoading(false);
-    setCoins(data);
-  };
   const darkTheme = createTheme({
     palette: {
       primary: {
@@ -102,7 +95,7 @@ const CoinsTable = () => {
                   {['Coin', 'Price', '24h Change', 'Market Cup'].map((head) => (
                     <TableCell
                       key={head}
-                      align={head === 'Coin' ? '' : 'right'}
+                      align={head === 'Coin' ? 'left' : 'right'}
                       style={{
                         color: 'black',
                         fontWeight: '700',
@@ -191,7 +184,7 @@ const CoinsTable = () => {
             justifyContent: 'center',
           }}
           classes={{ ul: classes.pagination }}
-          count={(handleSearch()?.length / 10).toFixed(0)}
+          count={parseInt((handleSearch()?.length / 10).toFixed(0))}
           onChange={(_, value) => {
             setPage(value);
             window.scroll(0, 450);
