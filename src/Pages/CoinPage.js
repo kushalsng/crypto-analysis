@@ -81,7 +81,6 @@ const CoinPage = () => {
   useEffect(() => {
     fetchCoin();
   }, []);
-  console.log(coin);
   return (
     <div className={classes.container}>
       {coin ? (
@@ -97,7 +96,7 @@ const CoinPage = () => {
               {coin?.name}
             </Typography>
             <Typography variant='subtitle1' className={classes.description}>
-              {coin?.description?.en?.split('. ')[0]}
+              {ReactHtmlParser(coin?.description.en.split('. ')[0])}.
             </Typography>
             <div className={classes.marketData}>
               <span style={{ display: 'flex' }}>
