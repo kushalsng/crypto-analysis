@@ -31,6 +31,7 @@ export default function AuthModal() {
   };
 
   const handleOpen = () => {
+    setValue(0);
     setOpen(true);
   };
 
