@@ -34,7 +34,7 @@ const SignUp = ({ handleClose }) => {
       });
       handleClose();
     } catch (err) {
-      console.log(err);
+      console.error(err);
       setAlert({
         open: true,
         message: err.message,
