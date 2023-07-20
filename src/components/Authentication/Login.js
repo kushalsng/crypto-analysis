@@ -22,7 +22,6 @@ const Login = ({ handleClose }) => {
 
     try {
       const result = await signInWithEmailAndPassword(auth, email, password);
-      console.log(result);
       setAlert({
         open: true,
         message: `Login Successful!`,

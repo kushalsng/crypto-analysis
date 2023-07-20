@@ -43,7 +43,6 @@ const CoinsTable = () => {
 
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(0);
-  // console.log(CryptoState())
   const { currency, symbol, coins, loading, fetchCoins } = CryptoState();
 
   const darkTheme = createTheme({
