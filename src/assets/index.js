@@ -1,4 +1,2 @@
-import clogo from './clogo.svg'
-export {
-  clogo
-}
+import calogo from '../assets/CA-Logo.png';
+export { calogo };

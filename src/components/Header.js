@@ -14,6 +14,7 @@ import { useNavigate } from 'react-router-dom';
 import { CryptoState } from '../Context/CryptoContext';
 import AuthModal from './Authentication/AuthModal';
 import UserSideBar from './Authentication/UserSideBar';
+import { calogo } from '../assets';
 
 const useStyles = makeStyles({
   title: {
@@ -21,7 +22,6 @@ const useStyles = makeStyles({
     color: 'gold',
     fontFamily: 'Montserrat',
     fontWeight: 'bold',
-    cursor: 'pointer',
     textTransform: 'uppercase',
   },
 });
@@ -43,28 +43,40 @@ const Header = () => {
     <ThemeProvider theme={darkTheme}>
       <AppBar color='transparent' position='static'>
         <Container>
-          <Toolbar>
-            <Typography
-              className={classes.title}
+          <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div
               onClick={() => navigate('/')}
-              variant='h6'
-            >
-              Crypto Analysis
-            </Typography>
-            <Select
-              variant='outlined'
               style={{
-                width: 100,
-                height: 40,
-                marginRight: 15,
+                display: 'flex',
+                alignItems: 'center',
+                cursor: 'pointer',
               }}
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value)}
             >
-              <MenuItem value='usd'>USD</MenuItem>
-              <MenuItem value='inr'>INR</MenuItem>
-            </Select>
-            {user ? <UserSideBar /> : <AuthModal />}
+              <img
+                src={calogo}
+                alt='crypto analysis'
+                style={{ height: 40, width: 40, marginRight: 10 }}
+              />
+              <Typography className={classes.title} variant='h6'>
+                Crypto Analysis
+              </Typography>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+              <Select
+                variant='outlined'
+                style={{
+                  width: 100,
+                  height: 40,
+                  marginRight: 15,
+                }}
+                value={currency}
+                onChange={(e) => setCurrency(e.target.value)}
+              >
+                <MenuItem value='usd'>USD</MenuItem>
+                <MenuItem value='inr'>INR</MenuItem>
+              </Select>
+              {user ? <UserSideBar /> : <AuthModal />}
+            </div>
           </Toolbar>
         </Container>
       </AppBar>
