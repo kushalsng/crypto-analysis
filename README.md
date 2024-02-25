@@ -8,8 +8,9 @@
   <h1>Cryptocurrency Tracker Website</h1>
   <h2>🌐 Overview</h2>
   <p>
-    This project is a fully responsive cryptocurrency tracking website built using React. It allows users to view current prices and information about various cryptocurrencies. Additionally, users can authenticate using custom credentials or Google authentication. They can also add coins to a watchlist, with all data being stored in a Firebase database. The website has been successfully deployed on Netlify.
+    Crypto Analysis is a fully responsive cryptocurrency tracking website built using React. It allows users to view current prices and information about various cryptocurrencies. Additionally, users can authenticate using custom credentials or Google authentication. They can also add coins to a watchlist, with all data being stored in a Firebase database. The website has been successfully deployed on Netlify.
   </p>
+  <p>Crypto Analysis has been deployed on Netlify and is accessible at <a href="https://crypto-analysis-info.netlify.app">https://crypto-analysis-info.netlify.app</a>.</p>
 
   <h2>🚀 Features</h2>
   <ol>
@@ -48,14 +49,11 @@
     <li>Access the website in your browser at <code>http://localhost:3000</code>.</li>
   </ol>
 
-  <h2>🚀 Deployment</h2>
-  <p>This project has been deployed on Netlify and is accessible at <a href="https://crypto-analysis-info.netlify.app">https://crypto-analysis-info.netlify.app</a>.</p>
-
   <h2>🎉 Contributing</h2>
   <p>Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests. 🙌</p>
 
   <h2>📝 License</h2>
-  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details. 📄</p>
+  <p>Crypto Analysis is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details. 📄</p>
 
   <h2>🙏 Acknowledgements</h2>
   <ul>
