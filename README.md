@@ -4,17 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cryptocurrency Tracker Website</title>
+  <style>
+    .ascii-art {
+      font-family: monospace;
+      white-space: pre;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
 
   <h1>Cryptocurrency Tracker Website</h1>
 
-  <h2>Overview</h2>
+  <pre class="ascii-art">
+  ╔══════════════════════════════╗
+  ║    🌟 🚀 💰 Cryptocurrency 💰 🚀 🌟    ║
+  ╚══════════════════════════════╝
+  </pre>
+
+  <h2>🌐 Overview</h2>
   <p>
     This project is a fully responsive cryptocurrency tracking website built using React. It allows users to view current prices and information about various cryptocurrencies. Additionally, users can authenticate using custom credentials or Google authentication. They can also add coins to a watchlist, with all data being stored in a Firebase database. The website has been successfully deployed on Netlify.
   </p>
 
-  <h2>Features</h2>
+  <h2>🚀 Features</h2>
   <ol>
     <li><strong>Cryptocurrency Information:</strong> Users can view information about various cryptocurrencies including current prices, market capitalization, volume, and more.</li>
     <li><strong>Authentication:</strong> Implemented authentication functionality allowing users to sign in using either custom credentials or Google authentication.</li>
@@ -24,17 +37,17 @@
     <li><strong>Deployment:</strong> Successfully deployed the website on Netlify, making it accessible to users worldwide.</li>
   </ol>
 
-  <h2>Technologies Used</h2>
+  <h2>🛠 Technologies Used</h2>
   <ul>
     <li>React: Frontend framework for building the user interface.</li>
     <li>Firebase: Backend service used for authentication and database management.</li>
     <li>Netlify: Platform used for deployment and hosting of the website.</li>
   </ul>
 
-  <h2>Getting Started</h2>
+  <h2>🚀 Getting Started</h2>
   <ol>
     <li>Clone the repository:</li>
-    <code>git clone https://github.com/kushalsng/crypto-analysis.git</code>
+    <code>git clone &lt;repository-url&gt;</code>
     <li>Install dependencies:</li>
     <code>cd cryptocurrency-tracker<br>npm install</code>
     <li>Configure Firebase:</li>
@@ -48,16 +61,16 @@
     <li>Access the website in your browser at <code>http://localhost:3000</code>.</li>
   </ol>
 
-  <h2>Deployment</h2>
-  <p>This project has been deployed on Netlify and is accessible at <a href="https://crypto-analysis-info.netlify.app">https://crypto-analysis-info.netlify.app</a>.</p>
+  <h2>🚀 Deployment</h2>
+  <p>This project has been deployed on Netlify and is accessible at <a href="https://example.com">https://example.com</a>.</p>
 
-  <h2>Contributing</h2>
-  <p>Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests.</p>
+  <h2>🎉 Contributing</h2>
+  <p>Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests. 🙌</p>
 
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+  <h2>📝 License</h2>
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details. 📄</p>
 
-  <h2>Acknowledgements</h2>
+  <h2>🙏 Acknowledgements</h2>
   <ul>
     <li><a href="https://reactjs.org/">React</a></li>
     <li><a href="https://firebase.google.com/">Firebase</a></li>
@@ -66,3 +79,7 @@
 
 </body>
 </html>
+
+
+<a href="https://crypto-analysis-info.netlify.app">https://crypto-analysis-info.netlify.app</a>.</p>
+<code>git clone https://github.com/kushalsng/crypto-analysis.git</code>
