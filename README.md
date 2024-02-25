@@ -28,6 +28,9 @@
     <li>Netlify: Platform used for deployment and hosting of the website.</li>
   </ul>
 
+  <h2>🖼 Screens</h2>
+  
+
   <h2>🚀 Getting Started</h2>
   <ol>
     <li>Clone the repository:</li>
