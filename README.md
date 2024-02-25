@@ -3,25 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cryptocurrency Tracker Website</title>
-  <style>
-    .ascii-art {
-      font-family: monospace;
-      white-space: pre;
-      margin-bottom: 20px;
-    }
-  </style>
 </head>
 <body>
-
   <h1>Cryptocurrency Tracker Website</h1>
-
-  <pre class="ascii-art">
-  ╔══════════════════════════════╗
-  ║    🌟 🚀 💰 Cryptocurrency 💰 🚀 🌟    ║
-  ╚══════════════════════════════╝
-  </pre>
-
   <h2>🌐 Overview</h2>
   <p>
     This project is a fully responsive cryptocurrency tracking website built using React. It allows users to view current prices and information about various cryptocurrencies. Additionally, users can authenticate using custom credentials or Google authentication. They can also add coins to a watchlist, with all data being stored in a Firebase database. The website has been successfully deployed on Netlify.
@@ -47,7 +31,7 @@
   <h2>🚀 Getting Started</h2>
   <ol>
     <li>Clone the repository:</li>
-    <code>git clone &lt;repository-url&gt;</code>
+    <code>git clone https://github.com/kushalsng/crypto-analysis.git</code>
     <li>Install dependencies:</li>
     <code>cd cryptocurrency-tracker<br>npm install</code>
     <li>Configure Firebase:</li>
@@ -62,7 +46,7 @@
   </ol>
 
   <h2>🚀 Deployment</h2>
-  <p>This project has been deployed on Netlify and is accessible at <a href="https://example.com">https://example.com</a>.</p>
+  <p>This project has been deployed on Netlify and is accessible at <a href="https://crypto-analysis-info.netlify.app">https://crypto-analysis-info.netlify.app</a>.</p>
 
   <h2>🎉 Contributing</h2>
   <p>Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests. 🙌</p>
@@ -81,5 +65,5 @@
 </html>
 
 
-<a href="https://crypto-analysis-info.netlify.app">https://crypto-analysis-info.netlify.app</a>.</p>
-<code>git clone https://github.com/kushalsng/crypto-analysis.git</code>
+
+
